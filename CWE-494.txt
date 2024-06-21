@@ -1,0 +1,34 @@
+For sql injection to work:
+5A0C0D1EC86CC61E9215199D81BFC1A1465E313BA86D07F37B5EFF6714E44F36
+
+For sql injection to not work:
+DBB717A96D28ACE7A71250D1AF6A1B40AB644E14813C525B4BE87F6C5F4AF4EB
+
+Commands run in the windows powershell:
+
+PS C:\xampp\htdocs\sqlinjection> Get-FileHash login.php
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA256          DBB717A96D28ACE7A71250D1AF6A1B40AB644E14813C525B4BE87F6C5F4AF4EB       C:\xampp\htdocs\sqlinjection\...
+
+
+PS C:\xampp\htdocs\sqlinjection> Get-FileHash login.php
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA256          5A0C0D1EC86CC61E9215199D81BFC1A1465E313BA86D07F37B5EFF6714E44F36       C:\xampp\htdocs\sqlinjection\...
+
+
+PS C:\xampp\htdocs\sqlinjection> Get-FileHash login.php
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA256          DBB717A96D28ACE7A71250D1AF6A1B40AB644E14813C525B4BE87F6C5F4AF4EB       C:\xampp\htdocs\sqlinjection\...
+
+
+PS C:\xampp\htdocs\sqlinjection> Get-FileHash login.php
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA256          5A0C0D1EC86CC61E9215199D81BFC1A1465E313BA86D07F37B5EFF6714E44F36       C:\xampp\htdocs\sqlinjection\...
